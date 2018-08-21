@@ -40,7 +40,7 @@ class HandleTweet implements ShouldQueue
                 'totalfollowers' => $tweet['user']['followers_count'],
                 ]);
                 echo '-------------------------------------------------------'. PHP_EOL;
-                echo $tweet['user']['name'].' '.$tweet['user']['followers_count'] . PHP_EOL;  
+                echo 'Profile Name: '.$tweet['user']['screen_name'].' No of followers'.$tweet['user']['followers_count'] . PHP_EOL;  
                 echo '-------------------------------------------------------'. PHP_EOL;  
         }
     }
